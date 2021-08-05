@@ -91,7 +91,7 @@ int main() {
   for (i = 0; i < grid.num_intersections; i++) {
     time[i] = (int * ) malloc(sizeof(int) * NEWS);
   }
-  grid.impossibilities = ZERO;a
+  grid.impossibilities = ZERO;
   grid.cost = ZERO;
   grid.grid_locations = ZERO;
   cell = (path_search_t * ) malloc(sizeof(path_search_t) * grid.num_intersections);
